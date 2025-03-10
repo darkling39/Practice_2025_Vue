@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <nav>
-      <router-link class="router-link" to="/" exact>List Of Notes</router-link>
+      <router-link class="router-link" to="/" exact>List Of Todos</router-link>
       <router-link class="router-link" to="/note" exact
-        >Create Note</router-link
+        >Create a Todo</router-link
       >
     </nav>
     <hr />
@@ -21,7 +21,7 @@ export default {
 <style>
 body {
   background-color: rgb(192, 192, 192);
-  font-family: cursive, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #8a8a8a;
 }
 * {
@@ -52,7 +52,7 @@ nav {
 }
 .router-link-active {
   color: green;
-  text-shadow: 0 0 7px rgba(0, 143, 36, 0.5);
+  /* text-shadow: 0 0 7px rgba(0, 143, 36, 0.5); */
 }
 hr {
   border: 0;

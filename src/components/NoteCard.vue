@@ -11,22 +11,22 @@
       </li>
     </ul>
     <div class="note_actions">
-      <icon-button 
-        type="edit" 
-        color="orange" 
+      <icon-button
+        type="edit"
+        color="orange"
         @action="goToNote"
         label="Edit Note"
-        >
-        Edit Note
-        </icon-button>
+      >
+        Edit Todo
+      </icon-button>
       <icon-button
         type="delete_outline"
         color="red"
         @action="$emit('delete-note', note.noteId)"
         label="Delete"
-        >
+      >
         Delete
-        </icon-button>
+      </icon-button>
     </div>
     <hr />
   </div>
